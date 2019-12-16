@@ -1,0 +1,35 @@
+.bottom{
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    width: 125px;
+    height: 40px;
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 1em;
+    outline: none;
+    border: none;
+    border-radius: 26px;
+    background: #ec644b;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+    &__main{
+        font-size: 12px;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-left: 18px;
+    }
+    &__header-last{
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 39px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+
+    }
+}
