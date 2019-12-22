@@ -1,0 +1,77 @@
+.footer{
+    padding: 24px 0 36px 0;
+    max-height: 201px;
+    background: #25333c;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__logo{
+        width: 68px;
+    }
+    &__left{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        margin-top: 30px;
+        margin-left: 22px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+        color: #ffffff;
+    }
+    &__right{
+        margin-top: 10px;
+        display: flex;
+    }
+    &__contact{
+        &__text{
+            font-size: 14px;
+            font-weight: 300;
+            text-align: right;
+            color: #ffffff;
+        }
+        &__number{
+            font-size: 19px;
+            font-weight: bold;
+            text-align: right;
+            color: #ffffff;
+        }
+    }
+    &__subfooter{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        &__copirite{
+            font-size: 13px;
+            font-weight: 300;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+
+        }
+        &__polit a{
+            font-size: 13px;
+            font-weight: 300;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ec644b;
+        }
+        &__studio{
+            display: flex;
+            justify-content: flex-start;
+            &__text{
+                margin-top: 10px;
+                margin-right: 10px;
+                font-size: 13px;
+                font-weight: 300;
+                text-align: right;
+                color: rgba(255, 255, 255, 0.6);
+            }
+            &__logo{
+                width: 30px;
+            }
+        }
+    }
+}
