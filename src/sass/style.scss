@@ -1,3 +1,4 @@
+@import "blocks/slick";
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +9,7 @@
     margin: 0 auto;
  
 }
+
 @import "blocks/header";
 @import "blocks/bottoms";
 @import "blocks/advantages";
@@ -16,3 +18,5 @@
 @import "blocks/delivery";
 @import "blocks/managment";
 @import 'blocks/work';
+@import "blocks/slider";
+@import "blocks/question";

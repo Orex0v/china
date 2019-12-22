@@ -1,0 +1,50 @@
+.slider{
+    padding: 51px 0 65px 0;
+    max-height: 470px;
+    &__header{
+        font-size: 26px;
+        text-align: center;
+        color: #2e2e2e;
+        text-transform: uppercase;
+    }
+    &__hr{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        border: none;
+        height: 1px;
+        width: 148px;
+        color: #ec644b;
+        background-color:#ec644b;
+
+    }
+    &__descr{
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &__carusel{
+        display: block;
+        margin: 0 auto;
+        margin-top: 31px;
+        &__avatar{
+            display: block;
+            margin: 0 auto;
+        }
+        &__name{
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 19px;
+        }
+        &__descr{
+            text-align: center;
+            margin-top: 19px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+        }
+    }
+}
