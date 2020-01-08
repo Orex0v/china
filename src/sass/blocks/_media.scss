@@ -1,0 +1,322 @@
+@media (min-width: 1200px) {
+ 
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container{
+        width: 850px;
+    }
+    .navbar{
+        margin-top: 22px;
+        &-item{
+            font-size: 13px;
+        }
+    }
+    .header{
+        &__logo{
+            width: 57px;
+        }
+        &__item{
+            width: 100%;
+        }
+        &-promo{
+            &__title{
+                font-size: 57px;
+            }
+            &__descr{
+                font-size: 32px;
+            }
+        }
+        &__contact{
+            margin-top: 5px;
+            &__text{
+                font-size: 12px;
+            }
+            &__phone{
+                font-size: 14px;
+            }
+            
+        }
+        &__items{
+            &__desr{
+                width: 100%;
+                font-size: 14px;
+            }
+        }
+    }
+    .bottom{
+        width: 118px;
+        &__header-last{
+            font-size: 12px;
+        }
+    }
+    .advantages{
+        padding: 38px 0 32px 0;
+        &__item{
+            max-width: 397px
+        }
+    }
+    .promo{
+        padding: 31px 0 42px 0;
+        &__items{
+            &__img{
+                max-width: 270px;
+            }
+            &__descr{
+                font-weight: 400;
+            }
+        }
+    }
+    .delivery{
+        &__content{
+            &__item{
+                max-width: 265px;
+                min-width: 0;
+                &__price{
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    .container{
+        width: 678px;
+    }
+    .header{
+        &__logo{
+            width: 74px;
+            height: 74px;
+        }
+        &__contact{
+            margin-left: 0;
+            &__phone{
+                font-size: 15px;
+            }
+        }
+        &__items{
+            &__desr{
+                width: 100%;
+                font-size: 13px;
+            }
+        }
+
+    }
+
+    .bottom{
+        &__main{
+            display: none;
+        }
+    }
+    .navbar{
+        margin-left: 0;
+        &-item{
+            font-size: 13px;
+        }
+    }
+    .advantages{
+        padding-top: 31px;
+        &__item{
+            max-width: 312px;
+            min-height: 95px;
+            &__text{
+                font-size: 13px;
+            }
+        }
+    }
+    .promo{
+        padding: 30px 0 30px 0;
+        &__items{
+            flex-direction: column;
+            &__content{
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            &__title{
+                margin-top: 10px;
+                font-size: 23px;
+            }
+            &__descr{
+                font-size: 16px;
+            }
+            &__img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    .delivery{
+        padding: 24px 0 58px 0;
+        &__content{
+            flex-direction: column;
+
+            &__item{
+                margin-bottom: 20px;
+                margin-right: 0;
+             
+            }
+        }
+    }
+    .work{
+        &__item{
+            &__title{
+                font-size: 15px;
+            }
+            &__descr{
+                font-size: 12px;
+            }
+        }
+        &__items{
+            margin-top: 23px;
+        }
+    }
+    .footer{
+        &__title{
+            font-size: 10px;
+            margin-left: 9px;
+        }
+        &__contact{
+            &__number{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.container{
+    width: 70%;
+}
+#menuToggle{
+    display: block;
+}
+.navbar{
+    display: none;
+}
+.header{
+    min-height: 680px;
+    &__logo{
+        width: 60px;
+        height: 60px;
+    }
+    &-promo{
+        &__s-title{
+            font-size: 20px;
+
+        }
+        &__title{
+            font-size: 32px;
+        }
+        &__descr{
+            font-size: 22px;
+        }
+    }
+    &__item{
+        margin-bottom: 15px;;
+    }
+    &__items{
+        flex-direction: column;
+    }
+}
+.promo{
+    &__items{
+        &__img{
+            width: 100%;
+        }
+    }
+}
+.consultation{
+    &__form{
+        &__input{
+            margin-right: 0;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            &:last-child{
+                
+                margin-left: 0;
+                margin: 0 auto;
+            }
+        }
+        &__wrapper{
+            flex-direction: column;
+            
+            margin: 0 auto;
+        }
+    }
+}
+.work{
+
+    &__item{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+   
+    &__items{
+        flex-direction: column;
+
+    }
+}
+.question{
+    &__form{
+        height: 252px;
+        &__input{
+            width: 100%;
+            margin-bottom: 4px;
+        }
+        &__wrapper{
+            flex-direction: column;
+
+        }
+    }
+}
+.footer{
+    &__wrapper{
+        flex-direction: column;
+    }
+    
+    &__logo{
+        width: 50px;
+        height: 50px;
+    }
+    &__title{
+        font-size: 10px;
+        margin-top: 16px;
+    }
+    &__contact{
+        &__text{
+            font-size: 11px;
+        }
+        &__number{
+            font-size: 15px;
+        }
+    }
+    &__subfooter{
+        flex-direction: column;
+        text-align: center;
+        &__studio{
+            justify-content: center;
+            margin-top: 10px;
+        }
+    }
+}
+.bottom{
+    &__footer{
+        height: 27px;
+        margin-bottom: 10px;
+        line-height: 30px;
+        width: 100px;
+        font-size: 10px;
+    }
+}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}

@@ -13,10 +13,9 @@
     border: none;
     border-radius: 13px;
     background: #ec644b;
-    -webkit-animation: pulsate 1.2s linear infinite;
-    animation: pulsate 1.2s linear infinite;
     cursor: pointer;
     text-transform: uppercase;
+    
     &__main{
         font-size: 12px;
         text-align: center;
