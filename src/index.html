@@ -28,11 +28,12 @@
               but hey, it's pure CSS magic.
               -->
               <ul id="menu">
-                <a href="#"><li>Преимуществаа</li></a>
-                <a href="#"><li>Наша работа</li></a>
-                <a href="#"><li>Цены</li></a>
-                <a href="#"><li>Отзывы</li></a>
-                <a href="#"><li>Контакты</li></a>
+                <li><a href="#advantages">Преимуществаа</a></li>
+                <li><a href="#promo">Наша работа</a></li>
+                <li><a href="#delivery">Цены</a></li>
+                <li><a href="#work">Схема работы</a></li>
+                <li><a href="#slider">Отзывы</a></li>
+                <li><a href="#question">Контакты</a></li>
               </ul>
             </div>
           </nav>
@@ -41,12 +42,12 @@
           
                 <img src="img/logo.png" alt="logo" class="header__logo">
                 <ul class="navbar">
-                    <li class="navbar-item">Преимущества</span>
-                    <li class="navbar-item">Наша работа</li>
-                    <li class="navbar-item">Цены</li>
-                    <li class="navbar-item">Схема работы</li>
-                    <li class="navbar-item">Отзывы</li>
-                    <li class="navbar-item">Контакты</li>
+                    <li class="navbar-item"><a href="#advantages">Преимущества</a>
+                    <li class="navbar-item"><a href="#promo">Наша работа</a></li>
+                    <li class="navbar-item"><a href="#delivery">Цены</a></li>
+                    <li class="navbar-item"><a href="#work">Схема работы</a></li>
+                    <li class="navbar-item"><a href="#slider">Отзывы</a></li>
+                    <li class="navbar-item"><a href="#question">Контакты</a></li>
                                                         
                 </ul>
                 <div class="header__contact">
@@ -85,7 +86,7 @@
         <bottom class="bottom bottom__header-last">Получить расчет</bottom>
        </div>
     </section>
-    <section class="advantages">
+    <section class="advantages" id="advantages">
         <div class="container">
             <div class="advantages__title">
                     Преимущества работы с GlobalOpt
@@ -157,7 +158,7 @@
             </div>
         </div>
     </section>
-    <section class="promo">
+    <section class="promo" id="promo">
         <div class="container">
             <div class="promo__title">Наша работа - больше чем просто доставка</div>
              <hr class="promo__hr">
@@ -194,7 +195,7 @@
             <div class="agent__desrc">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</div>
         </div>
     </section>
-    <section class="delivery">
+    <section class="delivery" id="delivery">
         <div class="container">
             <div class="delivery__title">Цены на любой вариант доставки</div>
             <hr class="delivery__hr">
@@ -245,7 +246,7 @@
                 <img src="img/consultation/consultation.png" alt="" class="consultation__logo">
                 <form action="post" class="consultation__form">
                     <div class="consultation__form__wrapper">
-                        <input type="neme" placeholder="Ваше имя..." required class="consultation__form__input">
+                        <input type="name" placeholder="Ваше имя..." required class="consultation__form__input">
                         <input type="text" placeholder="Ваш номер телефона..." required class="consultation__form__input">
                         <input type="email" placeholder="Ваш email..." required class="consultation__form__input">
                     </div>
@@ -264,7 +265,7 @@
                     поставки от завода-изготовителя.</div>
         </div>
     </section>
-    <section class="work">
+    <section class="work" id="work">
         <div class="container">
             <div class="work__title">Схема работы с нами</div>
             <div class="work__item__frist">
@@ -315,7 +316,7 @@
 
         </div>
     </section>
-    <section class="slider">
+    <section class="slider"  id="slider">
         <div class="container">
             <div class="slider__header">отзывы наших клиентов</div>
             <hr class="slider__hr">
@@ -338,7 +339,7 @@
                 
         </div>
     </section>
-    <section class="question">
+    <section class="question" id="question">
          <div class="container">
              <div class="question__wrapper">
                  <div class="question__header">
@@ -388,7 +389,7 @@
                 </div>
             </div>
 
-        </div>
+        
     </section>
 </body>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

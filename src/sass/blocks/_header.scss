@@ -66,9 +66,21 @@
         justify-content: space-between;
         cursor: pointer;
         transition: 0.5s all;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            padding-bottom: 5px;
+            &:hover{
+                color: #ec644b;
+                border-bottom: 1px solid #ec644b;
+
+            }
+        }
+        
+        
+        
         &:hover{
             color: #ec644b;
-            border-bottom: 1px solid #ec644b;
         }
         &:last-child{
             margin-right: 0;
